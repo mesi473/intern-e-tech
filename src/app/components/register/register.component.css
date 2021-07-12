@@ -1,0 +1,74 @@
+.register-page{
+    width: 100%;
+}
+.register-page-area{
+    width: 800px;
+    padding: 30px 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+    box-shadow: 1px 1px 5px  rgba(0,0,0,0.3);
+    background: #ffffff;
+}
+.register-main-page{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}   
+.register-main-page input[type="text"],.register-main-page input[type="password"]{
+    border: 0;
+    background: none;
+    display: black;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid orange ;
+    padding: 14px 10px;
+    outline: none;
+    color: black;
+    border-radius: 60px;
+    transition: 0.25s;
+    
+  }
+  .register-page-area h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    text-transform:uppercase;
+    font-weight: 500;
+  }
+  .register-main-page input[type="text"]:focus,.register-main-page input[type="password"]:focus{
+    width: 280px;
+    border-color: orange;
+  }
+  
+  .register-page-area a{
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid orange;
+      padding: 14px 40px;
+      outline: none;
+      color: orange;
+      border-radius: 24px;
+      transition:24px;
+      transition :0.25s;
+      cursor: pointer;
+      text-decoration: none;
+      width: 50px;
+  }
+  .register-page-area a:hover{
+    background: orange;
+    color: #ffffff; 
+  }
+  ::placeholder {
+    color: orange;
+    opacity: 1; 
+  }
